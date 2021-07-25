@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Books Shop</title>
+</head>
+
+<body>
+    <header>
+        <h1>Books Shop</h1>
+    </header>
+    <section>
+        <div class="form-container">
+            <form action="FORM" id="book-form">
+                <fieldset>
+                    <legend> FORM </legend>
+                    <label for="bookName"> Book Name :</label><br>
+                    <input type="text" id="book-name" name="bookName"><br>
+
+                    <label for="bookPrice"> Book Price :</label><br>
+                    <select name="bookPrice" id="book-price">
+                        <option value="100jd"> 100 jd</option>
+                        <option value="500jd"> 500 jd</option>
+                        <option value="100jd"> 1000 jd</option>
+                    </select><br>
+                    <input type="submit" value="Submit">
+                    <div class="list-container">
+                        <table id="display-item">
+
+                        </table>
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+        </div>
+
+    </section>
+
+<script src="Js/app.js"></script>
+</body>
+<footer>
+    &SAM ALHAJ 2021
+</footer>
+
+</html>
